@@ -1,6 +1,6 @@
 # Check that users have entered a valid
 # option based on a list
-def string_checker(question, valid_ans=['yes', 'no']):
+def string_checker(question, valid_ans=("yes", "no")):
 
     error = f"Please enter a valid option from the following list: {valid_ans}"
 
@@ -11,7 +11,7 @@ def string_checker(question, valid_ans=['yes', 'no']):
 
         for item in valid_ans:
             # check if the user response is a word in the list
-            
+
             if item == user_response:
                 return item
 
