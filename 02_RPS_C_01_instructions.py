@@ -51,6 +51,9 @@ Good luck!!!🍀
 
 
 # Main routine
+print()
+print("🪨📄✂️ Rock / Paper / Scissors Game ✂️📄🪨")
+print()
 
 # ask the user if they want instructions (check they say yes / no)
 want_instructions = string_checker("Do you want to see the instructions? ")
