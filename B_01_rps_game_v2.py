@@ -187,14 +187,17 @@ if rounds_played > 0:
 
     # Output Game Statistics
     print("📊📊📊 Game Statistics 📊📊📊")
-    print(f"🙌 Won: {percent_won:.2f} \t"
-          f"😢 Lost: {percent_lost:.2f} \t"
-          f"👔 Tied: {percent_tied:.2f}")
+    print(f"🙌 Won: {percent_won:.2f}% \t"
+          f"😢 Lost: {percent_lost:.2f}% \t"
+          f"👔 Tied: {percent_tied:.2f}%")
 
     see_history = string_checker("\nDo you want to see your game history? ")
     if see_history == "yes":
         for item in game_history:
             print(item)
 
-print()
-print("Thanks for playing")
+    print()
+    print("Thanks for playing!!! :)")
+
+else:
+    print("🐔🐔🐔 Oops - You chickened out! 🐔🐔🐔")
